@@ -1063,7 +1063,7 @@
   text-decoration: none;
 }
 
-.secondary-btn {
+.secondary-btn-portfolio {
   width: 202px;
   height: 48px;
   background-color: #fff;
@@ -1074,7 +1074,7 @@
   cursor: pointer;
 }
 
-.secondary-btn a {
+.secondary-btn-portfolio a {
   text-decoration: none;
   font-family: Public Sans;
   font-style: normal;
@@ -1086,7 +1086,61 @@
   color: #33323d;
 }
 
-.secondary-btn:hover {
+.secondary-btn-portfolio:hover {
+  background-color: #33323d;
+}
+
+.secondary-btn-contact {
+  width: 162px;
+  height: 48px;
+  background-color: #fff;
+  color: #33323d;
+  border: 1px solid #33323d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.secondary-btn-contact a {
+  text-decoration: none;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+}
+
+.secondary-btn-contact:hover {
+  background-color: #33323d;
+}
+
+.secondary-btn-view {
+  width: 175px;
+  height: 48px;
+  background-color: #fff;
+  color: #33323d;
+  border: 1px solid #33323d;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.secondary-btn-view a {
+  text-decoration: none;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+}
+
+.secondary-btn-view:hover {
   background-color: #33323d;
 }
 

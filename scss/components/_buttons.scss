@@ -22,8 +22,62 @@
   }
 }
 
-.secondary-btn {
+.secondary-btn-portfolio {
   width: 202px;
+  height: 48px;
+  background-color: $ButtonBackGround;
+  color: $GrayishDarkBlue;
+  border: 1px solid $GrayishDarkBlue;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $GrayishDarkBlue;
+  }
+
+  &:hover {
+    background-color: $GrayishDarkBlue;
+  }
+}
+
+.secondary-btn-contact {
+  width: 162px;
+  height: 48px;
+  background-color: $ButtonBackGround;
+  color: $GrayishDarkBlue;
+  border: 1px solid $GrayishDarkBlue;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $GrayishDarkBlue;
+  }
+
+  &:hover {
+    background-color: $GrayishDarkBlue;
+  }
+}
+
+.secondary-btn-view {
+  width: 175px;
   height: 48px;
   background-color: $ButtonBackGround;
   color: $GrayishDarkBlue;

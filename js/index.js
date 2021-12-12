@@ -10,9 +10,6 @@ const navLink = document.querySelectorAll("nav a");
 const form = document.getElementById("contact-form");
 const emailError = document.getElementById("email-err");
 
-console.log(errorMsgMessage);
-console.log(emailError);
-
 //vars
 
 const activePage = window.location.pathname;
@@ -28,6 +25,8 @@ btn.addEventListener("click", () => {
 navLink.forEach((link) => {
   if (link.href.includes(`${activePage}`)) {
     link.classList.add("link-style");
+  } else {
+    link.classList.remove("link-style");
   }
 });
 
