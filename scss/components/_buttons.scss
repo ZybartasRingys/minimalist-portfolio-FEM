@@ -1,0 +1,84 @@
+// buttons
+
+.primary-btn {
+  width: 152px;
+  height: 48px;
+  background-color: $DarkBlue;
+  border: none;
+
+  a {
+    width: 100%;
+    height: 100%;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $VeryLightGrey;
+    text-decoration: none;
+  }
+}
+
+.secondary-btn {
+  width: 202px;
+  height: 48px;
+  background-color: $ButtonBackGround;
+  color: $GrayishDarkBlue;
+  border: 1px solid $GrayishDarkBlue;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $GrayishDarkBlue;
+  }
+
+  &:hover {
+    background-color: $GrayishDarkBlue;
+  }
+}
+
+// contact form send message btn
+
+.send-message {
+  width: 200px;
+  height: 48px;
+  background-color: $DarkBlue;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $ButtonBackGround;
+  border: none;
+  cursor: pointer;
+}
+
+// arrow btn
+
+.buttons {
+  display: flex;
+}
+
+.arrow {
+  width: 48px;
+  height: 48px;
+  background: url(/images/icons/down-arrows.svg), $DarkBlue;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

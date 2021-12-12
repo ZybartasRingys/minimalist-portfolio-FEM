@@ -1,0 +1,116 @@
+.manage-hero {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.project-info {
+  width: 80%;
+  height: 1192px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+
+  .left-side {
+    width: 350px;
+    height: 498px;
+    border-top: 1px solid $Borders;
+    border-bottom: 1px solid $Borders;
+
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 42px;
+      color: $GrayishDarkBlue;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-family: Public Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 30px;
+      color: $GrayishDarkBlue;
+      opacity: 0.8;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: Public Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 30px;
+      color: $SlightlyDesaturatedCyan;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-family: Public Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 30px;
+      color: $SlightlyDesaturatedCyan;
+      margin-bottom: 20px;
+    }
+  }
+
+  .right-side {
+    width: 635px;
+    height: 1192px;
+
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 40px;
+      color: $GrayishDarkBlue;
+      margin-bottom: 28px;
+    }
+
+    p {
+      font-family: Public Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 28px;
+      color: $GrayishDarkBlue;
+      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-family: Ibarra Real Nova;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 42px;
+      color: $GrayishDarkBlue;
+      margin-bottom: 25px;
+    }
+
+    .images {
+      img {
+        width: 635px;
+        height: 400px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

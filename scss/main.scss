@@ -1,0 +1,35 @@
+//pages
+@import "./pages/index";
+@import "./pages/portfolio";
+@import "./pages/contact";
+//components
+@import "./components/portfolio-items";
+@import "./utilities/variables";
+@import "./components/footer";
+@import "./components/buttons";
+@import "./components/nav";
+@import "./components/hamburger";
+@import "./components/error-msg";
+@import "./components/form-validations";
+
+//media queries
+
+@import "./media/phone@375px";
+@import "./media/tablet@768px";
+
+//mixin
+
+@import "./utilities/mixins";
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ibarra Real Nova", serif;
+}

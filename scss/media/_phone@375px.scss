@@ -1,0 +1,356 @@
+// navbar
+
+@media (max-width: 767px) {
+  .navbar {
+    width: 83%;
+    height: 32px;
+    margin: 32px auto;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+// index/ home page
+@media (max-width: 767px) {
+  .hero {
+    width: 311px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+
+    .hero-img {
+      width: 100%;
+      max-width: 311px;
+      height: 271px !important;
+      margin-bottom: 30px;
+      background-image: url(/images/homepage/mobile/image-homepage-hero.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .hero-text {
+      width: 100%;
+      max-width: 311px;
+      height: 251px;
+      position: static !important;
+
+      h1 {
+        margin: 0;
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .about-me {
+    width: 311px;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 90px;
+
+    .photo {
+      width: 311px;
+      height: 346px !important;
+    }
+
+    .about-me-text {
+      width: 311px;
+      height: 617px;
+      margin: 37px 0;
+      border-top: 1px solid $Borders;
+
+      h1 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+      }
+
+      button {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // footer
+
+  .footer-content {
+    width: 100%;
+    max-width: 375px;
+    height: 309px !important;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto !important;
+
+    .line {
+      display: none;
+    }
+  }
+
+  .footer-text {
+    width: 311px !important;
+    height: 126px !important;
+    text-align: center;
+
+    h1 {
+      font-size: 40px;
+      line-height: 42px;
+      color: $GrayishDarkBlue;
+      letter-spacing: -0.357143px;
+    }
+  }
+
+  .footer-nav {
+    width: 100%;
+    height: 354px !important;
+    margin-top: 0 !important;
+
+    .footer-nav-content {
+      display: flex;
+      flex-direction: column;
+
+      .links-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        svg {
+          margin-bottom: 40px;
+        }
+
+        .footer-links {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            margin: 0;
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// portfolio
+
+@media (max-width: 767px) {
+  .projects {
+    width: 311px;
+    margin: 0 auto;
+  }
+  .manage,
+  .bookmark,
+  .insure,
+  .fylo {
+    width: 311px;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .photo-side {
+    width: 311px;
+    height: 288px;
+
+    img {
+      width: 100%;
+      max-width: 310px;
+      height: 288px;
+    }
+  }
+
+  .text-side-right {
+    width: 311px;
+    height: 368px;
+    margin: 0;
+    margin-top: 30px;
+
+    h1 {
+      margin-top: 29px;
+    }
+  }
+
+  .text-side-left {
+    width: 311px;
+    margin: 0;
+    margin-top: 30px;
+
+    h1 {
+      margin-top: 29px;
+    }
+  }
+}
+
+//projects
+
+@media (max-width: 767px) {
+  .manage-hero {
+    width: 311px !important;
+    height: 140px;
+    margin-bottom: 40px;
+  }
+
+  .project-info {
+    width: 311px;
+    height: 1511px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto !important;
+  }
+
+  .left-side {
+    width: 311px !important;
+    height: 632px;
+    margin-bottom: 50px;
+
+    p {
+      font-size: 15px;
+      margin-bottom: 20px !important;
+    }
+
+    h2,
+    h3 {
+      font-size: 13px !important;
+      margin-bottom: 10px !important;
+    }
+
+    button {
+      margin-bottom: 20px;
+    }
+  }
+
+  .right-side {
+    width: 311px !important;
+
+    h2 {
+      margin-bottom: 50px !important;
+    }
+  }
+
+  .images {
+    width: 311px;
+
+    img {
+      width: 311px !important;
+      height: 197px !important;
+    }
+  }
+
+  // projects footer  navitagion
+
+  .footer-navigation {
+    width: 326px;
+    height: 148px;
+  }
+
+  .previous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+
+    .previous-text {
+      margin: 0 !important;
+    }
+
+    a {
+      text-align: start;
+    }
+  }
+
+  .next {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+
+    .next-text {
+      margin: 0 !important;
+      display: flex;
+      align-items: flex-end !important;
+    }
+  }
+
+  .footer-content {
+    width: 311px !important;
+    justify-content: space-around !important;
+  }
+}
+
+// contact
+
+@media (max-width: 767px) {
+  .main {
+    width: 375px;
+    height: 1210px;
+    margin: 0 auto;
+  }
+
+  .get-in-touch {
+    width: 311px;
+    height: 531px;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+      height: 100px;
+      margin-bottom: 15px;
+      h1 {
+        margin-top: 20px;
+      }
+    }
+
+    .text {
+      width: 311px;
+      p {
+        font-size: 15px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .contact-me {
+    width: 311px;
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto !important;
+
+    .heading {
+      margin-top: 20px;
+      height: 50px;
+    }
+
+    .form {
+      width: 311px;
+      margin-top: 40px;
+    }
+  }
+
+  .form-example {
+    input {
+      width: 311px !important;
+    }
+  }
+
+  .form-example-message {
+    input {
+      width: 311px !important;
+    }
+  }
+}

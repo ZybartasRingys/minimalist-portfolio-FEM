@@ -1,0 +1,295 @@
+// navbar
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .navbar {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  //   index-home page
+  .hero {
+    width: 688px;
+    height: 600px;
+
+    .hero-img {
+      width: 100%;
+      height: 100%;
+      background-image: url(/images/homepage/tablet/image-homepage-hero.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .hero-text {
+      width: 514px;
+      height: 278px;
+
+      .hero-text-container {
+        width: 458px;
+        height: 126px;
+      }
+
+      h1 {
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+      }
+
+      button,
+      .arrow {
+        margin-top: 48px;
+      }
+    }
+  }
+
+  //about me section
+  .about-me {
+    width: 688px;
+    justify-content: space-between;
+
+    .photo {
+      width: 281px !important;
+      height: 600px !important;
+      background-image: url(/images/homepage/tablet/image-homepage-profile.jpg);
+    }
+
+    .about-me-text {
+      margin: 0;
+      width: 339px !important;
+      height: 600px;
+    }
+  }
+}
+
+//footer
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer-content {
+    width: 689px !important;
+  }
+
+  .footer-navigation {
+    width: 92%;
+  }
+
+  .line {
+    width: 113px;
+  }
+
+  .footer-nav-content {
+    width: 95% !important;
+  }
+
+  .footer-nav {
+    margin-top: 0 !important;
+  }
+}
+
+//portfolio
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .projects {
+    width: 689px;
+  }
+
+  .manage,
+  .bookmark,
+  .insure,
+  .fylo {
+    width: 689px;
+    height: 418px !important;
+    justify-content: space-between;
+  }
+
+  .photo-side {
+    width: 339px !important;
+    height: 314px;
+    margin-top: 52px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .text-side-right {
+    width: 281px !important;
+    height: 418px;
+    margin-left: 0;
+
+    h1 {
+      margin-top: 35px;
+    }
+  }
+
+  .text-side-left {
+    width: 281px !important;
+    height: 418px;
+    margin-left: 0;
+    margin-right: 0;
+
+    h1 {
+      margin-top: 37px;
+    }
+  }
+}
+
+// portfolio projects
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .manage-hero {
+    width: 689px;
+    height: 310px;
+    margin-bottom: 40px !important;
+
+    .manage-hero-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .project-info {
+    width: 689px;
+    height: 1608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .right-side {
+    width: 689px !important;
+
+    h2 {
+      margin-bottom: 55px !important;
+    }
+  }
+
+  .left-side {
+    width: 689px !important;
+    height: 274px !important;
+    margin-bottom: 47px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "heading1   paragraph "
+      "heading2   paragraph "
+      "heading3   paragraph "
+      "btn   paragraph ";
+  }
+
+  // grid areas
+  .heading-1 {
+    grid-area: heading1;
+    h1 {
+      margin-top: 32px !important;
+    }
+  }
+  .paragraph {
+    width: 339px;
+    height: 150px;
+    grid-area: paragraph;
+    margin-top: 32px;
+  }
+  .heading-2 {
+    grid-area: heading2;
+    h2 {
+      font-size: 13px !important;
+      line-height: 30px !important;
+      margin-bottom: 5px !important;
+    }
+  }
+  .heading-3 {
+    grid-area: heading3;
+    h3 {
+      font-size: 13px !important;
+      line-height: 30px !important;
+    }
+  }
+
+  .btn {
+    grid-area: btn;
+  }
+
+  .images {
+    img {
+      width: 689px !important;
+      height: 434px !important;
+    }
+  }
+}
+
+// contact
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .main {
+    width: 90%;
+    height: 986px;
+    margin: 0 auto;
+  }
+
+  .get-in-touch {
+    width: 689px;
+    height: 361px;
+    display: flex;
+    flex-direction: column;
+
+    .text {
+      width: 689px;
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .heading {
+      height: 42px;
+      h1 {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .contact-me {
+    width: 689px;
+    height: 628px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+      height: 42px;
+      margin-bottom: 40px;
+      h1 {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  //form
+
+  .form {
+    width: 689px;
+    height: 426px;
+  }
+
+  .contact-form {
+    width: 689px;
+    height: 426px;
+  }
+
+  .form-example {
+    margin-bottom: 30px !important;
+  }
+
+  #name,
+  #email {
+    width: 689px !important;
+  }
+  #message {
+    width: 689px !important;
+    height: 96px !important;
+  }
+}

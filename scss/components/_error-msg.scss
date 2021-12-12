@@ -1,0 +1,52 @@
+.error-msg {
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  margin-top: -30px;
+  display: none;
+}
+
+.error {
+  display: block;
+  font-family: Public Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #f43030;
+}
+
+.error-msg.active {
+  display: block;
+}
+
+.error-msg-message {
+  position: absolute;
+  margin-top: 10px;
+  width: 120px;
+  height: 12px;
+  display: none;
+}
+
+.error-msg-message.active {
+  display: block;
+}
+
+// email error
+
+.email-error {
+  width: 150px;
+  height: 15px;
+  margin-top: -10px;
+  font-family: Public Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: #f43030;
+  display: none;
+}
+
+.email-error.active {
+  display: block;
+}
